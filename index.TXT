@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="曾睿 的个人履历，包含个人优势、专业技能、工作经历、项目经历与教育背景。">
+  <meta name="theme-color" content="#ffffff">
+  <title>我的履历 | Promise</title>
+  <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
+  <link rel="stylesheet" href="styles.css">
+  <!-- 这是一个样式表，请把它应用到当前页面 -->
+</head>
+<body>
+  <div class="site-shell">
+    <main id="main">
+      <!-- 个人信息：修改姓名、职业、简介、所在地和联系方式。 -->
+      <section class="profile-card" aria-labelledby="profile-name">
+        <div class="avatar-wrap">
+          <img src="assets/avatar.jpeg" alt="Promise 的头像" width="640" height="640">
+        </div>
+
+        <div class="profile-copy">
+          <p class="profile-label">PROFILE</p>
+          <h2 id="profile-name">曾睿</h2>
+          <p class="profile-role">C Language Beginner</p>
+          <p class="profile-summary">
+            爱好数码，喜欢刷机，AI赋能，学习编程
+          </p>
+          <div class="profile-tags" aria-label="基本信息">
+            <span>黄石</span>
+            <span>20 岁</span>
+          </div>
+        </div>
+
+        <div class="profile-contact" aria-label="联系方式">
+          <p class="contact-title">CONTACT</p>
+          <a href="mailto:hello@nexus.local">
+            <span>邮箱</span>
+            <strong>2048482833@qq.com</strong>
+          </a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+            <strong>查看主页 ↗</strong>
+          </a>
+          <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">
+            <span>个人网站</span>
+            <strong>访问网站 ↗</strong>
+          </a>
+        </div>
+      </section>
+
+      <div class="content-grid">
+        <aside class="sidebar" aria-label="个人能力与教育背景">
+          <!-- aria-label="个人能力与教育背景" —— 无障碍标签 -->
+          <!-- <aside> —— 语义化标签 -->
+          <!-- 个人优势：每一项使用一个 li。 -->
+          <section class="panel">
+            <div class="section-title">
+              <span class="section-number">01</span>
+              <div>
+                <h2>个人优势</h2>
+              </div>
+            </div>
+            <ul class="feature-list">
+              <li>熟悉 python</li>
+              <!-- <li></li>
+              <li></li>
+              <li></li> -->
+            </ul>
+          </section>
+
+          <!-- 专业技能：level 文案可以直接修改为“熟练 / 常用 / 了解”。 -->
+          <!-- <section class="panel">
+            <div class="section-title">
+              <span class="section-number">02</span>
+              <div>
+                <h2>专业技能</h2>
+              </div>
+            </div>
+            <div class="skill-list">
+              <span class="skill"><i class="dot dot-strong"></i>Java <b>熟练</b></span>
+              <span class="skill"><i class="dot dot-strong"></i>Spring Boot <b>熟练</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>MySQL <b>常用</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>MyBatis <b>常用</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>Redis <b>常用</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>React <b>常用</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>Next.js <b>常用</b></span>
+              <span class="skill"><i class="dot dot-normal"></i>TypeScript <b>常用</b></span>
+              <span class="skill"><i class="dot dot-light"></i>Docker <b>了解</b></span>
+            </div>
+          </section> -->
+
+          <!-- 教育背景。 -->
+          <section class="panel">
+            <div class="section-title">
+              <span class="section-number">03</span>
+              <div>
+                <h2>教育背景</h2>
+              </div>
+            </div>
+            <article class="education-item">
+              <div class="item-heading">
+                <h3>湖师文理</h3>
+                <time>2026.09 — 2030.06</time>
+              </div>
+              <p class="item-role">数学与应用数学 · 本科</p>
+              <ul class="plain-list">
+                <!-- <li>-----</li>
+                <li>-----</li>
+                <li>-----</li> -->
+              </ul>
+            </article>
+          </section>
+        </aside>
+
+        <div class="main-column">
+          <!-- 工作经历：复制 article.timeline-item 可增加一段经历。 -->
+          <section class="panel">
+            <div class="section-title">
+              <span class="section-number">04</span>
+              <div>
+                <h2>工作经历</h2>
+              </div>
+            </div>
+            <div class="timeline">
+              <article class="timeline-item">
+                <div class="item-heading">
+                  <div>
+                    <h3>-----</h3>
+                    <p class="item-role">-----</p>
+                  </div>
+                  <time>2026.09 — 至今</time>
+                </div>
+                <ul class="plain-list">
+                  <li>设计博客后端接口</li>
+                  <li>实现文章、评论、相册等模块</li>
+                  <li>负责前端体验和部署流程</li>
+                </ul>
+              </article>
+
+              <article class="timeline-item">
+                <div class="item-heading">
+                  <div>
+                    <h3>示例科技有限公司</h3>
+                    <p class="item-role">后端开发实习生</p>
+                  </div>
+                  <time>----------</time>
+                </div>
+                <ul class="plain-list">
+                  <li>---------</li>
+                  <li>---------</li>
+                  <li>---------</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+
+          <!-- 项目经历：可复制整个 project 区块增加项目。 -->
+          <section class="panel">
+            <div class="section-title">
+              <span class="section-number">05</span>
+              <div>
+                <h2>项目经历</h2>
+              </div>
+            </div>
+
+            <article class="project">
+              <header class="project-header">
+                <div>
+                  <h3>Nexus 个人博客</h3>
+                  <p class="item-role">全栈开发</p>
+                </div>
+                <time>2025.08 — 至今</time>
+              </header>
+
+              <p class="project-description">
+                一个用于记录技术、生活和项目复盘的个人站点。
+              </p>
+
+              <div class="tech-stack" aria-label="项目技术栈">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>MyBatis</span>
+                <span>MySQL</span>
+                <span>Next.js</span>
+                <span>React</span>
+              </div>
+
+              <div class="project-details">
+                <section>
+                  <h4>项目亮点</h4>
+                  <ul class="plain-list">
+                    <li>文章、评论、留言墙、相册和履历模块</li>
+                    <li>前后端分离开发</li>
+                  </ul>
+                </section>
+                <section>
+                  <h4>项目难点</h4>
+                  <ul class="plain-list">
+                    <li>评论回复层级和审核流程</li>
+                    <li>管理端内容配置和界面统一</li>
+                  </ul>
+                </section>
+                <section>
+                  <h4>项目成果</h4>
+                  <ul class="plain-list">
+                    <li>完成个人内容管理闭环</li>
+                    <li>形成可复用的后台组件结构</li>
+                  </ul>
+                </section>
+              </div>
+
+              <a class="project-link" href="https://github.com/example/nexus" target="_blank" rel="noopener noreferrer">
+                查看项目仓库 <span aria-hidden="true">↗</span>
+              </a>
+            </article>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span>© 2026 NEXUS STUDIO</span>
+      <a href="#main">回到顶部 ↑</a>
+    </footer>
+  </div>
+</body>
+</html>
